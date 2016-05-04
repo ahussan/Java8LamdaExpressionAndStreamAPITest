@@ -1,4 +1,4 @@
-package java.ProblemSolving;
+package problemsolving;
 
 /**
  * Created by anjalhussan on 5/4/16.
