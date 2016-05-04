@@ -1,4 +1,4 @@
-package PredicateTest.ProblemSolving;
+package java.ProblemSolving;
 
 /**
  * Created by anjalhussan on 5/4/16.
