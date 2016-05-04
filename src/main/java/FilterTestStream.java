@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 /**
  * Created by anjalhussan on 4/23/16.
  */
-public class FilterTestWithLamdaExp {
+public class FilterTestStream {
 
     private static List<User> users = Arrays.asList(
             new User(1, "Steve", "Vai", 40),
