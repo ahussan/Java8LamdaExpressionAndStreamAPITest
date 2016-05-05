@@ -46,15 +46,12 @@ public class java8StreamLamda {
         List<String> newList = techCompanies.stream().filter(x->!x.isEmpty()).collect(Collectors.toList());
         System.out.println("Test6: List without empty name: ".concat(newList.toString()));
 
-        // Convert String to UPPERCASE and join them using space
+        // Convert String to UPPERCASE
         List<String > upperCaseList = techCompanies.stream().map(x->x.toUpperCase()).collect(Collectors.toList());
 
+        // Convert String to UPPERCASE AND join them using space
         String fullsentence =techCompanies.stream().map(x->x.toUpperCase()).collect(Collectors.joining(" "));
-        System.out.println(fullsentence);
-
-
-
-
+        System.out.println("Sentence after converting upper case" +fullsentence);
 
     }
 
