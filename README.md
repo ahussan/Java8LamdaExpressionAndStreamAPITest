@@ -42,7 +42,6 @@ List<string> names = students.stream().map(Student::getName).filter(name->name.s
 .collect(Collectors.toList());
 ```
 
-**Question?** Shoot.
 
 
 
