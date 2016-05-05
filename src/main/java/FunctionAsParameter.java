@@ -39,7 +39,7 @@ public class FunctionAsParameter {
     This method calls for each and then takes the given Consumer object.
     The Consumer object is how we specify an instance of a function that returns void.
     If the function returns some other type such as String,
-    we would instead use Function<User,String>. Now that we have this function,
+    we would instead use Function<ITUser,String>. Now that we have this function,
     we can invoke it and give it the parameter by calling accept.
     */
 
